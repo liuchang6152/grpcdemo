@@ -76,15 +76,15 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.liuchang.proto.StudentProto.internal_static_com_liuchang_proto_MyResponse_descriptor;
+    return StudentProto.internal_static_com_liuchang_proto_MyResponse_descriptor;
   }
 
   @Override
   protected FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.liuchang.proto.StudentProto.internal_static_com_liuchang_proto_MyResponse_fieldAccessorTable
+    return StudentProto.internal_static_com_liuchang_proto_MyResponse_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
-            com.liuchang.proto.MyResponse.class, com.liuchang.proto.MyResponse.Builder.class);
+            MyResponse.class, Builder.class);
   }
 
   public static final int REALNAME_FIELD_NUMBER = 2;
@@ -162,10 +162,10 @@ private static final long serialVersionUID = 0L;
     if (obj == this) {
      return true;
     }
-    if (!(obj instanceof com.liuchang.proto.MyResponse)) {
+    if (!(obj instanceof MyResponse)) {
       return super.equals(obj);
     }
-    com.liuchang.proto.MyResponse other = (com.liuchang.proto.MyResponse) obj;
+    MyResponse other = (MyResponse) obj;
 
     if (!getRealname()
         .equals(other.getRealname())) return false;
@@ -187,69 +187,69 @@ private static final long serialVersionUID = 0L;
     return hash;
   }
 
-  public static com.liuchang.proto.MyResponse parseFrom(
+  public static MyResponse parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static com.liuchang.proto.MyResponse parseFrom(
+  public static MyResponse parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static com.liuchang.proto.MyResponse parseFrom(
+  public static MyResponse parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static com.liuchang.proto.MyResponse parseFrom(
+  public static MyResponse parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static com.liuchang.proto.MyResponse parseFrom(byte[] data)
+  public static MyResponse parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static com.liuchang.proto.MyResponse parseFrom(
+  public static MyResponse parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static com.liuchang.proto.MyResponse parseFrom(java.io.InputStream input)
+  public static MyResponse parseFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static com.liuchang.proto.MyResponse parseFrom(
+  public static MyResponse parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
-  public static com.liuchang.proto.MyResponse parseDelimitedFrom(java.io.InputStream input)
+  public static MyResponse parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input);
   }
-  public static com.liuchang.proto.MyResponse parseDelimitedFrom(
+  public static MyResponse parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
   }
-  public static com.liuchang.proto.MyResponse parseFrom(
+  public static MyResponse parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static com.liuchang.proto.MyResponse parseFrom(
+  public static MyResponse parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -262,7 +262,7 @@ private static final long serialVersionUID = 0L;
   public static Builder newBuilder() {
     return DEFAULT_INSTANCE.toBuilder();
   }
-  public static Builder newBuilder(com.liuchang.proto.MyResponse prototype) {
+  public static Builder newBuilder(MyResponse prototype) {
     return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
   }
   @Override
@@ -283,18 +283,18 @@ private static final long serialVersionUID = 0L;
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
       // @@protoc_insertion_point(builder_implements:com.liuchang.proto.MyResponse)
-      com.liuchang.proto.MyResponseOrBuilder {
+      MyResponseOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.liuchang.proto.StudentProto.internal_static_com_liuchang_proto_MyResponse_descriptor;
+      return StudentProto.internal_static_com_liuchang_proto_MyResponse_descriptor;
     }
 
     @Override
     protected FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.liuchang.proto.StudentProto.internal_static_com_liuchang_proto_MyResponse_fieldAccessorTable
+      return StudentProto.internal_static_com_liuchang_proto_MyResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.liuchang.proto.MyResponse.class, com.liuchang.proto.MyResponse.Builder.class);
+              MyResponse.class, Builder.class);
     }
 
     // Construct using com.liuchang.proto.MyResponse.newBuilder()
@@ -323,17 +323,17 @@ private static final long serialVersionUID = 0L;
     @Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.liuchang.proto.StudentProto.internal_static_com_liuchang_proto_MyResponse_descriptor;
+      return StudentProto.internal_static_com_liuchang_proto_MyResponse_descriptor;
     }
 
     @Override
-    public com.liuchang.proto.MyResponse getDefaultInstanceForType() {
-      return com.liuchang.proto.MyResponse.getDefaultInstance();
+    public MyResponse getDefaultInstanceForType() {
+      return MyResponse.getDefaultInstance();
     }
 
     @Override
-    public com.liuchang.proto.MyResponse build() {
-      com.liuchang.proto.MyResponse result = buildPartial();
+    public MyResponse build() {
+      MyResponse result = buildPartial();
       if (!result.isInitialized()) {
         throw newUninitializedMessageException(result);
       }
@@ -341,8 +341,8 @@ private static final long serialVersionUID = 0L;
     }
 
     @Override
-    public com.liuchang.proto.MyResponse buildPartial() {
-      com.liuchang.proto.MyResponse result = new com.liuchang.proto.MyResponse(this);
+    public MyResponse buildPartial() {
+      MyResponse result = new MyResponse(this);
       result.realname_ = realname_;
       onBuilt();
       return result;
@@ -382,16 +382,16 @@ private static final long serialVersionUID = 0L;
     }
     @Override
     public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof com.liuchang.proto.MyResponse) {
-        return mergeFrom((com.liuchang.proto.MyResponse)other);
+      if (other instanceof MyResponse) {
+        return mergeFrom((MyResponse)other);
       } else {
         super.mergeFrom(other);
         return this;
       }
     }
 
-    public Builder mergeFrom(com.liuchang.proto.MyResponse other) {
-      if (other == com.liuchang.proto.MyResponse.getDefaultInstance()) return this;
+    public Builder mergeFrom(MyResponse other) {
+      if (other == MyResponse.getDefaultInstance()) return this;
       if (!other.getRealname().isEmpty()) {
         realname_ = other.realname_;
         onChanged();
@@ -411,11 +411,11 @@ private static final long serialVersionUID = 0L;
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      com.liuchang.proto.MyResponse parsedMessage = null;
+      MyResponse parsedMessage = null;
       try {
         parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        parsedMessage = (com.liuchang.proto.MyResponse) e.getUnfinishedMessage();
+        parsedMessage = (MyResponse) e.getUnfinishedMessage();
         throw e.unwrapIOException();
       } finally {
         if (parsedMessage != null) {
@@ -517,12 +517,12 @@ private static final long serialVersionUID = 0L;
   }
 
   // @@protoc_insertion_point(class_scope:com.liuchang.proto.MyResponse)
-  private static final com.liuchang.proto.MyResponse DEFAULT_INSTANCE;
+  private static final MyResponse DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new com.liuchang.proto.MyResponse();
+    DEFAULT_INSTANCE = new MyResponse();
   }
 
-  public static com.liuchang.proto.MyResponse getDefaultInstance() {
+  public static MyResponse getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
@@ -547,7 +547,7 @@ private static final long serialVersionUID = 0L;
   }
 
   @Override
-  public com.liuchang.proto.MyResponse getDefaultInstanceForType() {
+  public MyResponse getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
 
